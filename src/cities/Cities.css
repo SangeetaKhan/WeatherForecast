@@ -1,0 +1,21 @@
+.cities-filter {
+    border-radius: 0px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #a59898;
+}
+
+@media only screen and (orientation: portrait) {
+    .cities-wrapper::after {
+        width: 5px;
+        height: 5px;
+        content: '';
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+        position: absolute;
+        top: 25px;
+        right: px;
+        margin-left: -29px;
+        transform: rotate(45deg);
+    }
+  }

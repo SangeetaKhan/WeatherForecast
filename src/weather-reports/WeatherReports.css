@@ -1,0 +1,54 @@
+.reports-wrapper {
+    padding:10px;
+} 
+.header-details {
+    display: flex;
+}
+.header {
+    text-shadow: 1px 2px #8BC34A;
+    margin-left:10px;
+}
+.city {
+    font-size: 20px;
+    line-height: 30px;
+}
+.region {
+    font-size: 15px;
+}
+.current-report-wrapper {
+    margin: 10px;
+}
+.forecast-report-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* Or do it all in one line
+      with flex flow */
+    flex-flow: row wrap;
+    margin-top:10px;
+}
+.forecast-tiles {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #03A9F4;
+    margin: 0 10px 10px 10px;
+    /* text-align: center; */
+    /* border: 1px solid; */
+    flex: 1 1 25%;
+    padding:10px;
+    margin: 10px 10px;
+}
+.forecast-tiles:last-child{
+    flex: 0 0 30%;
+}
+.item {
+    padding-right: 10px;
+    display: flex;
+}
+.span {
+    display: flex;
+}
+.arrow {
+    width: 10px;
+    height: 10px;
+    margin-top:3px;
+}
+
